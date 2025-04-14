@@ -2,7 +2,7 @@
 
 This project is my attempt at play a bit with the development and deployment of AI agents. 
 
-## How to Run
+## How to Run with Podman
 
 1. **Clone the repository:**
     ```bash
@@ -16,21 +16,7 @@ This project is my attempt at play a bit with the development and deployment of 
     ## update variable in .env file
     ```
 
-### Run directly
-
-2. **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Run the main application:**
-    ```bash
-    python main.py
-    ```
-
-### Run with Podman
-
-2. **Podman compose:**
+3. **Podman compose:**
     ```bash
     podman-compose up --build
     ```
