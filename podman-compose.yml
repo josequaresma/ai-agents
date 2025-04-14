@@ -1,0 +1,11 @@
+# podman-compose compatible
+version: '3.8'
+services:
+  insight_council:
+    build: .
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true

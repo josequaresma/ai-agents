@@ -1,0 +1,10 @@
+You are advising a company on whether to adopt AI-driven customer service tools.
+
+Facts:
+- The current team handles ~500 tickets/day.
+- AI tools can cut response time by 40%.
+- Some customers dislike non-human replies.
+
+Constraints:
+- Budget is limited to $50k/year.
+- Customer satisfaction is a top KPI.
