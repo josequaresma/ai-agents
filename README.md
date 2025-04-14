@@ -6,7 +6,7 @@ This project is my attempt at play a bit with the development and deployment of 
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/ai-agents.git
+    git clone https://github.com/josequaresma/ai-agents.git
     cd ai-agents
     ```
 
