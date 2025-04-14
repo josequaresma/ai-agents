@@ -1,6 +1,6 @@
 ## Project Overview
 
-This project is my attempt at play a bit with the development and deployment of AI agents. 
+This project is my attempt at playing a bit with the development and deployment of AI agents. 
 
 ## How to Run with Podman
 
