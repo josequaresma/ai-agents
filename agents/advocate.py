@@ -2,9 +2,9 @@ from openai import OpenAI
 
 client = OpenAI()
 
-def run_critic(context):
-    prompt = open("prompts/critic_prompt.txt").read()
+def run_advocate(context):
+    prompt = open("prompts/advocate_prompt.txt").read()
     response = client.chat.completions.create(model="gpt-4.0",
     messages=[{"role": "user", "content": f"{context}\n\n{prompt}"}],
-    temperature=0.4)
+    temperature=0.8)
     return response.choices[0].message.content
